@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Account Finder</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/x-icon" href="image/logo.png">
+
+    <link rel="manifest" href="manifest.json">
+
+</head>
+<body>
+    <!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+    <a class="navbar-brand" href="/">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbgdzGGdVW2Cz0JEJPM9cbF9K1nl8fTVoBIw&usqp=CAU" width="30" height="30" class="d-inline-block align-top" alt="">
+        Github User Finder
+    </a>
+</nav>
+
+
+<!-- <div class="container">
+</div> -->
+
+<style>
+    /* Custom CSS styles */
+    body {
+        background-color: #f8f9fa; /* Light gray background */
+    }
+
+    .heading-text {
+        font-size: 2rem;
+        font-weight: bold;
+        color: #007bff; /* Bootstrap primary color */
+    }
+</style>
+
+<section class="vh-100">
+    <div class="container">
+
+        <br>
+
+        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+            <ol class="breadcrumb" id="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Results</li>
+            </ol>
+        </nav>
+
+  <div class="container mt-5">
+    <h1 class="heading-text mb-4">GitHub Account Finder</h1>
+
+    <!-- Search form -->
+    <form id="search-form" class="mb-4">
+      <div class="form-group">
+        <label for="username">Enter GitHub Username:</label>
+        <input type="text" id="username" class="form-control" placeholder="Enter username">
+      </div>
+      <button type="submit" class="btn btn-primary">Search</button>
+    </form>
+
+    <!-- User profile cards -->
+    <div id="user-profiles" class="row">
+      <!-- User profile cards will be displayed here -->
+    </div>
+  </div>
+  </div>
+
+  <footer class="bg-body-tertiary text-center text-lg-start bg-light">
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-body" href="https://whetherforecast.netlify.app/">githubaccountfind.netlify.app</a>
+    </div>
+    <!-- Copyright -->
+</footer>
+
+  <!-- Bootstrap JS and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Your custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
